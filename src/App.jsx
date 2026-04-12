@@ -27,7 +27,7 @@ const App = () => {
   return (
     <div className="min-h-screen bg-gray-950 text-gray-100 p-8">
        <div className="max-w-4xl mx-auto bg-gray-900 shadow-xl rounded-lg p-6 border border-cyan-800/50 shadow-cyan-900/40">
-         {/* <Header title="Student Report Card" /> */}
+         <Header title="Student Report Card" />
          {/* <AddStudentForm onAdd={addStudent} /> */}
          {/* <StudentTable students={students} onUpdate={updateScore} /> */}
        </div>
