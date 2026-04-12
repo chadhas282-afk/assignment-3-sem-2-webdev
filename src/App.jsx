@@ -6,8 +6,8 @@ import AddStudentForm from './components/AddStudentForm';
 const App = () => {
   const [students, setStudents] = useState([
     { id: 1, name: "Lalit Arya", score: 85 },
-//     { id: 2, name: "Garry Singh", score: 32 },
-//   ]);
+    { id: 2, name: "Garry Singh", score: 32 },
+  ]);
 
 //   const addStudent = (name, score) => {
 //     const newStudent = {
