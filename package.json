@@ -1,6 +1,6 @@
 {
   "name": "your-app-name",
-  "homepage": "https://<username>.github.io/<repo-name>",
+  "homepage": "https://chadhas282-afk.github.io/assignment-3-sem-2-webdev/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
