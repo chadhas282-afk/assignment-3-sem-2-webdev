@@ -19,7 +19,7 @@ const App = () => {
   };
 
   const updateScore = (id, newScore) => {
-//     setStudents(students.map(s => 
+    setStudents(students.map(s => 
 //       s.id === id ? { ...s, score: parseInt(newScore) || 0 } : s
 //     ));
 //   };
