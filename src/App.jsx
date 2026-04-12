@@ -12,9 +12,9 @@ const App = () => {
   const addStudent = (name, score) => {
     const newStudent = {
       id: Date.now(),
-//       name,
-//       score: parseInt(score),
-//     };
+      name,
+      score: parseInt(score),
+    };
 //     setStudents([...students, newStudent]);
 //   };
 
