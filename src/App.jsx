@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Header from './components/Header';
-import StudentTable from './components/StudentTable';
-import AddStudentForm from './components/AddStudentForm';
+import Header from './components/Header.jsx';
+import StudentTable from './components/StudentTable.jsx';
+import AddStudentForm from './components/AddStudentForm.jsx';
 
 const App = () => {
   const [students, setStudents] = useState([
