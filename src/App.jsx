@@ -20,9 +20,9 @@ const App = () => {
 
   const updateScore = (id, newScore) => {
     setStudents(students.map(s => 
-//       s.id === id ? { ...s, score: parseInt(newScore) || 0 } : s
-//     ));
-//   };
+      s.id === id ? { ...s, score: parseInt(newScore) || 0 } : s
+    ));
+  };
 
 //   return (
 //     <div className="min-h-screen bg-gray-950 text-gray-100 p-8">
