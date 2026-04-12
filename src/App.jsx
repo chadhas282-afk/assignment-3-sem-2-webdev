@@ -10,7 +10,7 @@ const App = () => {
   ]);
 
   const addStudent = (name, score) => {
-//     const newStudent = {
+    const newStudent = {
 //       id: Date.now(),
 //       name,
 //       score: parseInt(score),
