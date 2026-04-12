@@ -9,7 +9,7 @@ const App = () => {
     { id: 2, name: "Garry Singh", score: 32 },
   ]);
 
-//   const addStudent = (name, score) => {
+  const addStudent = (name, score) => {
 //     const newStudent = {
 //       id: Date.now(),
 //       name,
