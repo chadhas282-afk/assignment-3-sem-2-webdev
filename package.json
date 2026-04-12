@@ -1,5 +1,5 @@
 {
-  "name": "Report-Card",
+  "name": "student-management-system",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
