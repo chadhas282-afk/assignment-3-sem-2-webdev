@@ -3,6 +3,7 @@ import './index.css';
 import Header from './components/Header.jsx';
 import StudentTable from './components/StudentTable.jsx';
 import AddStudentForm from './components/AddStudentForm.jsx';
+import Footer from './components/Footer.jsx';
 
 const App = () => {
   const [students, setStudents] = useState([
@@ -26,11 +27,12 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-950 text-gray-100 p-8">
+    <div className="min-h-screen bg-gray-950 text-gray-100 p-8 font-mono">
        <div className="max-w-4xl mx-auto bg-gray-900 shadow-xl rounded-lg p-6 border border-cyan-800/50 shadow-cyan-900/40">
          <Header title="Student Report Card" />
          <AddStudentForm onAdd={addStudent} />
          <StudentTable students={students} onUpdate={updateScore} />
+         <Footer students={students} />
        </div>
      </div>
   );
